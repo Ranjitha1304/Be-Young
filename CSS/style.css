@@ -1,0 +1,134 @@
+/* *{
+    margin:0px;
+    padding:0px;
+} */
+.free{
+    background-color: black;
+    color:white;
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
+
+}
+.free p{
+    padding-left: 100px;
+}
+.free a{
+    float:inline-end;
+    color:white;
+    margin-left: 600px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.beyoung{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.logo img{
+    width:170px;
+    height:20px;
+    padding-top: 15px;
+}
+.topwear{
+    position: relative; 
+}
+.bttn-content{
+   display:flex;
+}
+
+.btn-content{
+    display: none; 
+    position: absolute; 
+    /* z-index: 1; */
+    top:100%;
+    box-shadow: 0px 8px 16px 0px rgba(71, 61, 61, 0.2); 
+background-color: white;
+width:200px;
+
+}
+.btn-content a{
+    text-decoration: none;
+    display: flex;
+    color:black;
+    padding: 5px 5px;
+}
+.topwear:hover .btn-content{
+display: block;
+}
+.btn {
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+ .btn img{
+    width:25px;
+    height:25px;
+    /* margin-top: 20px; */
+ }  
+
+.goatsale a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    /* margin-top: 10px; */
+}
+.goatsale{
+    padding-top: 10px;
+}
+.cart img{
+    width:25px;
+    height:25px;
+    padding-right: 10px;
+}
+.cart{
+margin-left: 50px;
+margin-right: 30px;
+}
+.one-fixed{
+    position: sticky;
+    background-color: white;
+    top: 0%;
+}
+.two-banner img{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.three-offerimages{
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.three-offerimages img{
+    width:auto;
+    overflow: hidden;
+    padding-right: 15px;
+}
+.four-comboimages{
+    margin-left: 250px;
+    margin-top: 50px;
+   margin-bottom: 20px;
+}
+.four-comboimages img{
+
+height:70px;}
+
+.five-comboimages{
+    display:flex;
+    justify-content:space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.five-comboimages img{
+    width:270px;
+    height:470px;
+ 
+}
+.six-dufflebag{
+    margin: 50px;
+   
+}
