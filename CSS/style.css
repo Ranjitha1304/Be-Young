@@ -42,7 +42,7 @@ padding-bottom: 10px;
 .bttn-content,.btn-content1{
    display:flex;
    position: absolute; 
-   top:135%;
+   top:100%;
    box-shadow: 20px rgba(242, 212, 212, 0.2);
    border-radius: 25px;
    border:1px solid rgb(240, 237, 237); 
@@ -73,7 +73,7 @@ width:200px;
 
 /* display:flex; */
 position: absolute; 
-top:135%;
+top:105%;
 box-shadow: 20px rgba(242, 212, 212, 0.2);
 border-radius: 10px;
 border:1px solid rgb(240, 237, 237); 
@@ -152,6 +152,8 @@ margin-right: 30px;
     position: sticky;
     background-color: white;
     top: 0%;
+    padding-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .two-banner img{
     width:100%;
@@ -190,6 +192,63 @@ height:70px;}
  
 }
 .six-dufflebag{
-    margin: 50px;
-   
+    margin-left: 70px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.seven-getwinter{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.eight-winter{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.eight-winter img{
+width:290px;
+height:470px;
+border-radius: 20px;
+}
+.nine-goatsale{
+    text-align: center;
+    padding-bottom: 20px;
+    width: 1230px;
+    margin-left: 50px;
+    background-color: rgb(214, 220, 228);
+}
+.nine-goatsale h2{
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.tengoatgif{
+    background-color: rgb(214, 220, 228);
+    margin-left: 50px;
+
+    width:1230px;  
+}
+.tengoatgif img{
+    /* padding-left: 10px; */
+    width:1230px;  
+    margin-bottom: 20px; 
+
+}
+.eleven-buttons{
+    text-align: center;
+    width: 1230px;
+    margin-left: 50px;
+    background-color: rgb(214, 220, 228);
+margin-top: 0px;
+padding-top: 0px;
+}
+.shirt{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding:10px;
+    font-size: large;
 }
