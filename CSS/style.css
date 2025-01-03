@@ -7,8 +7,8 @@
     color:white;
     display: flex;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   font-weight: bold;
-margin-top: 0px;
+    font-weight: bold;
+    margin-top: 0px;
 }
 .free p{
     padding-left: 80px;
@@ -21,8 +21,8 @@ margin-top: 0px;
     margin-left: 660px;
     padding-top: 8px;
     text-decoration: none;
-font-weight: 400;   
-padding-bottom: 10px;
+    font-weight: 400;   
+    padding-bottom: 10px;
 }
 .beyoung{
     display: flex;
@@ -34,12 +34,15 @@ padding-bottom: 10px;
     height:20px;
     padding-top: 11px;
     padding-left: 70px;
+    cursor: pointer;
 }
 .topwear{   
     position: relative; 
  
 }
-.bttn-content,.btn-content1{
+/* topwear inner button content style when hovered */
+.bttn-content,.btn-content1 
+{
    display:flex;
    position: absolute; 
    top:100%;
@@ -56,10 +59,10 @@ padding-bottom: 10px;
      /* z-index: 1; 
     top:100%; */
     /* box-shadow: 0px 8px 16px 0px rgba(71, 61, 61, 0.2);   */
-background-color: white;
-width:140px;
+    background-color: white;
+    width:140px;
 /* height:100px; */
-padding-top: 10px;
+    padding-top: 10px;
 }
 
 .btn-content1{
@@ -67,10 +70,8 @@ padding-top: 10px;
     /* z-index: 1; 
    top:100%; */
    /* box-shadow: 0px 8px 16px 0px rgba(71, 61, 61, 0.2);   */
-
    background-color: white;
-width:200px;
-
+   width:200px;
 /* display:flex; */
 position: absolute; 
 top:105%;
@@ -84,9 +85,7 @@ border:1px solid rgb(240, 237, 237);
     text-decoration: none;
     color: black;
 }
-.btn img{
-     /* padding-top:10px;  */
-}
+
 .goatsale a{
    font-size:small;
 }
@@ -107,10 +106,8 @@ border:1px solid rgb(240, 237, 237);
     color:black;
     padding-bottom: 10px; 
      margin:10px; 
-   
 }
-
-
+ /* when mouse hover over topwear, inner content to be disploayed */
 .topwear:hover .btn-content{
 display: block;
 }
@@ -148,17 +145,19 @@ display: block;
 margin-left: 50px;
 margin-right: 30px;
 }
+/* static tab displays fixed all over website */
 .one-fixed{
     position: sticky;
     background-color: white;
     top: 0%;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     /* margin-bottom: 20px; */
 }
 .two-banner img{
     width:100%;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .three-offerimages{
     display:flex;
@@ -181,21 +180,23 @@ height:70px;}
 .five-comboimages{
     display:flex;
     justify-content:space-evenly;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 30px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .five-comboimages img{
     width:270px;
     height:470px;
- 
+ border-radius:15px;
 }
 .six-dufflebag{
     margin-left: 70px;
     margin-right: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 .seven-getwinter{
     text-align: center;
@@ -205,20 +206,21 @@ height:70px;}
 .eight-winter{
     display: flex;
     justify-content: space-around;
-    margin-left: 40px;
+    margin-left: 70px;
     margin-right: 40px;
     margin-bottom: 40px;
 }
 .eight-winter img{
-width:290px;
-height:470px;
+width:280px;
+height:460px;
 border-radius: 20px;
+cursor: pointer;
 }
 .nine-goatsale{
     text-align: center;
     padding-bottom: 20px;
-    width: 1230px;
-    margin-left: 50px;
+    width: 1200px;
+    margin-left: 70px;
     background-color: rgb(214, 220, 228);
 }
 .nine-goatsale h2{
@@ -227,28 +229,82 @@ border-radius: 20px;
 }
 .tengoatgif{
     background-color: rgb(214, 220, 228);
-    margin-left: 50px;
+    margin-left: 70px;
 
-    width:1230px;  
+    width:1200px;  
 }
 .tengoatgif img{
     /* padding-left: 10px; */
-    width:1230px;  
+    width:1200px;  
     margin-bottom: 20px; 
 
 }
 .eleven-buttons{
     text-align: center;
-    width: 1230px;
-    margin-left: 50px;
+    width: 1200px;
+    margin-left: 70px;
     background-color: rgb(214, 220, 228);
 margin-top: 0px;
 padding-top: 0px;
+
+
 }
 .shirt{
     background-color: black;
     color: white;
     border-radius: 20px;
-    padding:10px;
-    font-size: large;
+    padding:5px 20px 5px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.polo{
+   background-color: rgb(214, 220, 228);
+    color: black;
+    border-radius: 20px;
+    padding:5px 20px 5px 20px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.twelve-shirt{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: rgb(214, 220, 228);
+    width:1200px; 
+}
+.twelve-shirt img{
+width:270px;
+height:380px;
+border-radius: 20px;
+cursor: pointer;
+}
+.goat-sale-shirt{
+    display:flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.goatshirt-content {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: rgba(42, 43, 43, 0.814);
+    font-size: 16px;
+}
+.rate{
+    display:inline;
+    padding-left: 10px;
+}
+.amount{
+    font-weight: bolder;
+}
+.strike{
+    text-decoration:line-through;
+    color:gray;
+}
+.offer{
+    color: rgb(8, 163, 8);
 }
