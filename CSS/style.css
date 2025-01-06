@@ -309,3 +309,99 @@ cursor: pointer;
 .offer{
     color: rgb(8, 163, 8);
 }
+.NewArrivals{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.NewArrivals img{
+    width:70%;
+height:80%;
+cursor:pointer;
+}
+.JustDropped img{
+width:90%;
+height:80%;
+margin-left: 80px;
+cursor:pointer;
+}
+.trending p{
+    margin: 20px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.TrendingContent{
+    display: flex;
+    margin-bottom: 50px;
+}
+.trendingVideo video{
+    width:50%;
+    height:40%;
+    margin-bottom: 50px;
+}
+.thirteen-TopWear,.discount{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.thirteen-TopWear h3,.discount h3{
+color:rgb(84, 82, 82);
+}
+.thirteen-TopWearContent img{
+width:280px;
+height:460px;
+border-radius: 20px;
+cursor: pointer;
+padding-left: 10px;
+padding-right: 20px;
+}
+.thirteen-TopWearContent{
+    display:flex;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.discount{
+    font-size: larger;
+
+}
+.DiscountContent {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.DiscountContent img{
+    width:380px;
+height:230px;
+padding-right: 20px;
+cursor:pointer;
+}
+.shop h1,.celeb h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.ShopContent,.CelebContent{
+    display: flex;
+    margin-left: 90px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.ShopContent img{
+    width:320px;
+height:330px;
+padding-right: 10px;
+border-radius: 15px;
+cursor:pointer;
+}
+.CelebContent img{
+    width:320px;
+height:400px;
+padding-right: 10px;
+border-radius: 15px;
+cursor:pointer;
+}
+.celeb{
+    padding-top: 30px;
+}
