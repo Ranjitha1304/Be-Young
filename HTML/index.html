@@ -8,7 +8,10 @@
          Beyoung-Online Shopping for Everyday Fashion in India</title>
     
          <link rel="stylesheet" href="../CSS/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+         <link rel="stylesheet" href="../CSS/BannerStyle.css">
+         <link rel="stylesheet" href="../CSS/OfferCarouselStyle.css">
+         <link rel="stylesheet" href="../CSS/ComboImagesStyle.css">
+         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <section class="one-fixed"> 
@@ -106,21 +109,53 @@
     </section>
     </section>
 <section class="two-banner">
-    <img src="../Images/banner1.jpg">
+    <div class="carousel">
+        <img src="../Images/banner2.jpg" class="active" alt="Image 1">
+        <img src="../Images/bannernew.jpg" alt="Image 2">
+       
+        <div class="carousel-controls">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+    </div>
 </section>
 <section class="three-offerimages">
-    <img src="../Images/3-image1.jpg">
-    <img src="../Images/3-image2.jpg">
+    <div class="OfferCarousel">      
+        <img src="../Images/3-image1.jpg" class="active" alt="Image 1">
+        <img src="../Images/3-image2.jpg" alt="Image 2">
+        <img src="../Images/3-image3.jpg" alt="Image 2">
+        <img src="../Images/3-image4.jpg" alt="Image 2">
+        <img src="../Images/3-image5.jpg" alt="Image 2">
+        <img src="../Images/3-image6.jpg" alt="Image 2">
+        <img src="../Images/3-image7.jpg" alt="Image 2">
+        <img src="../Images/3-image8.jpg" alt="Image 2">
+
+        <div class="carousel-controls">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+    </div>
+   
 </section>
 
 <section class="four-comboimages">
     <img src="../Images/4 combos.jpg">
 </section>
 <section class="five-comboimages">
-    <img src="../Images/5-c1.jpg">
-<img src="../Images/5-c2.jpg">
-<img src="../Images/5-c3.jpg">
-<img src="../Images/5-c4.jpg">
+    <div class="ComboImagesCarousel">
+        <img src="../Images/5-c1.jpg" class="active" alt="Image 1">
+        <img src="../Images/5-c2.jpg" class="active" alt="Image 2">
+        <img src="../Images/5-c3.jpg" class="active">
+        <img src="../Images/5-c4.jpg" class="active">
+        <img src="../Images/5-c4.jpg">
+        <img src="../Images/5-c4.jpg">
+            
+        <div class="ComboImagesCarousel-controls">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+    </div>
+ 
 </section>
 <section class="six-dufflebag">
 <img src="../Images/6-duffle trolley bag.jpg">
@@ -193,7 +228,12 @@
 
 
 
+<script src="../JS/BannerCarousel.js">
 
+</script>
+<script src="../JS/OfferCarousel.js">
 
+</script>
+<script src="../JS/ComboImages.js"></script>
 </body>
 </html>
