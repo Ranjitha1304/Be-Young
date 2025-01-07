@@ -8,10 +8,10 @@
          Beyoung-Online Shopping for Everyday Fashion in India</title>
     
          <link rel="stylesheet" href="./CSS/style.css">
-         
          <link rel="stylesheet" href="./CSS/BannerStyle.css">
          <link rel="stylesheet" href="./CSS/OfferCarouselStyle.css">
          <link rel="stylesheet" href="./CSS/ComboImagesStyle.css">
+         
          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -121,7 +121,9 @@
     </div>
 </section>
 <section class="three-offerimages">
-    <div class="OfferCarousel">      
+    
+    
+  <div class="OfferCarousel">      
         <img src="./Images/3-image1.jpg" class="active" alt="Image 1">
         <img src="./Images/3-image2.jpg" alt="Image 2">
         <img src="./Images/3-image3.jpg" alt="Image 2">
@@ -135,7 +137,7 @@
             <button id="prev">&lt;</button>
             <button id="next">&gt;</button>
         </div>
-    </div>
+    </div> 
    
 </section>
 
@@ -143,19 +145,27 @@
     <img src="./Images/4 combos.jpg">
 </section>
 <section class="five-comboimages">
-    <div class="ComboImagesCarousel">
-        <img src="./Images/5-c1.jpg" class="active" alt="Image 1">
-        <img src="./Images/5-c2.jpg" class="active" alt="Image 2">
-        <img src="./Images/5-c3.jpg" class="active">
-        <img src="./Images/5-c4.jpg" class="active">
-        <img src="./Images/5-c4.jpg">
-        <img src="./Images/5-c4.jpg">
-            
-        <div class="ComboImagesCarousel-controls">
-            <button id="prev">&lt;</button>
-            <button id="next">&gt;</button>
+
+    <div class="carouselnew">
+        <button class="prev">❮</button>
+        <div class="carousel-track-container">
+          <ul class="carousel-track">
+            <li class="carousel-slide"><img src="./Images/5-c1.jpg" alt="Image 1"></li>
+            <li class="carousel-slide"><img src="./Images/5-c2.jpg" alt="Image 2"></li>
+            <li class="carousel-slide"><img src="./Images/5-c3.jpg" alt="Image 3"></li>
+            <li class="carousel-slide"><img src="./Images/5-c4.jpg" alt="Image 4"></li>
+            <li class="carousel-slide"><img src="./Images/5-c5.jpg" alt="Image 5"></li>
+            <li class="carousel-slide"><img src="./Images/5-c6.jpg" alt="Image 6"></li>
+            <li class="carousel-slide"><img src="./Images/5-c7.jpg" alt="Image 7"></li>
+            <li class="carousel-slide"><img src="./Images/5-c8.jpg" alt="Image 8"></li>
+            <li class="carousel-slide"><img src="./Images/5-c9.jpg" alt="Image 7"></li>
+            <li class="carousel-slide"><img src="./Images/5-c10.jpg" alt="Image 8"></li>
+  
+          </ul>
         </div>
-    </div>
+        <button class="next">❯</button>
+      </div>
+    
  
 </section>
 <section class="six-dufflebag">
@@ -366,5 +376,8 @@
 
 </script>
 <script src="./JS/ComboImages.js"></script>
+
+
+
 </body>
 </html>
