@@ -1,51 +1,52 @@
-
-        .ComboImagesCarousel {
-            display: flex;
-            flex-basis: 25%;
-            justify-content: space-between;
-             position: relative; 
-             
-            /* width: 80%;
-            max-width: 600px;
-            margin: auto;
-            overflow: hidden; */
-        }
-        /* .ComboImagesCarousel img {
-            width: 100%;
-            display: none;
-        } */
-        .ComboImagesCarousel img.active {
-            display: block;
-        }
-        .ComboImagesCarousel-controls {
-             position: absolute; 
-             top: 50%; 
-            width: 100%;
-            display: flex;
-            /* border:2px solid red; */
-             justify-content: space-between;
-             
-            transform: translateY(-50%); 
-        }
-        .ComboImagesCarousel-controls button {
-            background-color: white;
-            color:black; 
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-        }
-        .five-comboimages{
-            display:flex;
-            flex-basis: 25%;
-            justify-content:space-evenly;
-            margin-left: 50px;
-            margin-right: 30px;
-            margin-bottom: 20px;
-            cursor: pointer;
-        }
-        .five-comboimages img{
-            width:270px;
-            height:470px;
-         border-radius:15px 15px;
-         padding-right: 20px;
-        }
+.carouselnew {
+    position: relative;
+    /* max-width: 800px; Adjust to fit 4 images */
+    /* margin: auto; */
+    overflow: hidden; /* Hide extra images */
+  }
+  
+  .carousel-track-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 calc((100% - 30px) / 4); /* Divide the container into 4 equal slides with padding */
+    margin-right: 10px; /* Padding between slides */
+    /* box-sizing: border-box; Include padding in width */
+    list-style: none;
+  }
+  
+  .carousel-slide img {
+     /* width: 100%; Ensure images fit their slides */
+    display: block;
+    width:270px;
+    height:470px;
+    border-radius:15px;
+  }
+  
+  .carouselnew button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    justify-content:space-between;
+  }
+  
+  /* button.prev {
+    left: 10px;
+  } */
+  
+  button.next {
+    right: 38px;
+  }
