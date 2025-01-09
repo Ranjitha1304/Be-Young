@@ -1,28 +1,28 @@
-.carouselnew {
+.carouselWinter {
     position: relative;
     /* max-width: 800px; Adjust to fit 4 images */
     /* margin: auto; */
     overflow: hidden; /* Hide extra images */
   }
   
-  .carousel-track-container {
+  .carousel-track-container1 {
     overflow: hidden;
     width: 100%;
   }
   
-  .carousel-track {
+  .carousel-track1 {
     display: flex;
     transition: transform 0.3s ease-in-out;
   }
   
-  .carousel-slide {
+  .carousel-slide1 {
     flex: 0 0 calc((100% - 30px) / 4); /* Divide the container into 4 equal slides with padding */
     margin-right: 10px; /* Padding between slides */
     /* box-sizing: border-box; Include padding in width */
     list-style: none;
   }
   
-  .carousel-slide img {
+  .carousel-slide1 img {
      /* width: 100%; Ensure images fit their slides */
     display: block;
     width:270px;
@@ -31,9 +31,9 @@
     
   }
   
-  .carouselnew button {
+  .carouselWinter button {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     background-color: white;
     color: black;
@@ -48,6 +48,6 @@
     left: 10px;
   } */
   
-  button.next {
-    right: 38px;
+  button.next1 {
+    right: 30px;
   }

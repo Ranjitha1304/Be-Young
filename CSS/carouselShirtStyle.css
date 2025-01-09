@@ -1,39 +1,45 @@
-.carouselnew {
+.carouselShirt {
     position: relative;
     /* max-width: 800px; Adjust to fit 4 images */
     /* margin: auto; */
     overflow: hidden; /* Hide extra images */
   }
   
-  .carousel-track-container {
+  .carousel-track-container2 {
     overflow: hidden;
     width: 100%;
   }
   
-  .carousel-track {
+  .carousel-track2 {
     display: flex;
     transition: transform 0.3s ease-in-out;
   }
   
-  .carousel-slide {
+  .carousel-slide2 {
     flex: 0 0 calc((100% - 30px) / 4); /* Divide the container into 4 equal slides with padding */
-    margin-right: 10px; /* Padding between slides */
+    /* margin-right: 10px; Padding between slides */
     /* box-sizing: border-box; Include padding in width */
+    padding-right: 40px;
+    padding-left: 0px;
     list-style: none;
+    margin-left: 0px;
+ 
   }
   
-  .carousel-slide img {
+  .carousel-slide2 img {
      /* width: 100%; Ensure images fit their slides */
     display: block;
     width:270px;
-    height:470px;
+    height:380px;
     border-radius:15px;
-    
+   
+    /* padding-right:40px; */
+    margin-left: 0px;
   }
   
-  .carouselnew button {
+  .carouselShirt button {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     background-color: white;
     color: black;
@@ -44,10 +50,10 @@
     justify-content:space-between;
   }
   
-  /* button.prev {
-    left: 10px;
-  } */
+   button.prev2 {
+    left: 0px;
+  } 
   
-  button.next {
-    right: 38px;
+  button.next2 {
+    right: 0px;
   }
