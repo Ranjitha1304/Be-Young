@@ -449,3 +449,79 @@ cursor:pointer;
     font-size: 22px;
     
   }
+  .featuredImages{
+    display:flex;
+    margin-left: 50px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    cursor: grab;
+  }
+  .bharatImage{
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+  .subscribe{
+    display:flex;
+    margin-left: 100px;
+    margin-right: 70px;
+  }
+  .xclusive p{
+    font-style: italic;
+    font-size: 24px;
+  }
+  .mail{
+    display:flex;
+    border:1px solid black;
+    margin-left: 80px;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .xclusive{
+width:650px;
+  }
+  .mailcontent p{
+    padding:20px;
+    color: grey;
+  }
+  .buton button{
+    background-color: rgb(250, 224, 56);
+    padding:12px 20px 12px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-left: 40px;
+    font-weight:900;
+    border:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+cursor: pointer;
+  }
+  .footercontent{
+    display:flex;
+    background-color: black;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  .footercontent h2{
+    color:yellow;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .footercontent p{
+    color:white;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .footer{
+    background-color: black;
+    padding: 70px;
+    margin-top: 30px;
+  }
+  .download img{
+    display: inline;
+    width:180px;
+    height:60px;
+    cursor: pointer;
+    padding-right: 10px;
+  }
