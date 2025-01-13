@@ -1,7 +1,5 @@
 .carouselTopwear1 {
     position: relative;
-    /* max-width: 800px; Adjust to fit 4 images */
-    /* margin: auto; */
     overflow: hidden; /* Hide extra images */
     margin-right: 10px;
   }
@@ -18,21 +16,14 @@
   
   .carousel-slide5 {
     flex: 0 0 calc((100% - 10px) / 4); /* Divide the container into 4 equal slides with padding */
-    /* margin-right: 10px; Padding between slides */
-    /* box-sizing: border-box; Include padding in width */
-    /* padding-right: 20px; */
-    /* padding-left: 10px; */
     list-style: none;
-   
   }
   
   .carousel-slide5 img {
-     /* width: 100%; Ensure images fit their slides */
     display: block;
     width:270px;
     height:380px;
     border-radius:15px;
-    /* padding-right:40px; */
   }
   
   .carouselTopwear1 button {
