@@ -6,18 +6,21 @@
     <title> Beyoung-Online Shopping for Everyday Fashion in India</title>
     <link rel="icon" href="./Images/favicon.ico" type="image/x-icon"> 
     
-         <link rel="stylesheet" href="./CSS/style.css">
-         
+         <link rel="stylesheet" href="./CSS/style.css">   
          <link rel="stylesheet" href="./CSS/BannerStyle.css">
          <link rel="stylesheet" href="./CSS/OfferCarouselStyle.css">
          <link rel="stylesheet" href="./CSS/ComboImagesStyle.css">
          <link rel="stylesheet" href="./CSS/carouselWinterStyle.css"> 
          <link rel="stylesheet" href="./CSS/carouselShirtStyle.css">
          <link rel="stylesheet" href="./CSS/carouselCargo.css">
+         <link rel="stylesheet" href="./CSS/carouselPolo.css">
          <link rel="stylesheet" href="./CSS/topwear.css">
          <link rel="stylesheet" href="./CSS/topwear1.css">
          <link rel="stylesheet" href="./CSS/bottomwear.css">
-<link rel="stylesheet" href="./CSS/carouselCeleb.css">
+         <link rel="stylesheet" href="./CSS/carouselCeleb.css">
+         <link rel="stylesheet" href="./CSS/choose.css">
+         <link rel="stylesheet" href="./CSS/popular.css">
+<!-- <link rel="stylesheet" href="./CSS/carouselPolo.css"> -->
 
          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -202,10 +205,7 @@
         </div>
         <button class="next1">❯</button>
       </div> 
-   <!-- <img src="./Images/8-winter1.jpg">
-   <img src="./Images/8-winter2.jpg">
-   <img src="./Images/8-winter3.jpg">
-   <img src="./Images/8-winter4.jpg"> -->
+
 </section>
 <section class="nine-goatsale">
     <h2>G.O.A.T.SALE</h2>
@@ -214,351 +214,500 @@
 <section class="tengoatgif">
 <img src="./Images/10-goat-sale.gif">
 </section>
-<section class="eleven-buttons">
-    <button class="shirt">Shirts</button>
-    <button class="polo">Polo</button>
-</section>
-<section class="twelve-shirt">
-    <div class="carouselShirt">
-        <button class="prev2">❮</button>
-        <div class="carousel-track-container2">
-          <ul class="carousel-track2">
-            <div class="goat-sale-shirt">
-                <li class="carousel-slide2">
-                    <img src="./Images/12goatshirt1.jpg" alt="Image 1"></li>
-                <p class="goatshirt-content"> Dark Blue Dual Pocket Denim Shirt</p>
-                <div class="rate">
-                <span class="amount"> ₹1299</span>
-                     <span class="strike"> ₹2499 </span>  
-                     <span class="offer"> (48% off)</span>
-                </div>
-            </div>
 
-              <!-- To display shirt type, Rate and Offer percentage -->
-<div class="goat-sale-shirt">
-        <li class="carousel-slide2">
-            <img src="./Images/12goatshirt2.jpg" alt="Image 1"></li>
-            <p class="goatshirt-content"> Brown Waffle Plaid Shirt</p>
-            <div class="rate">
-            <span class="amount"> ₹940</span>
-                 <span class="strike"> ₹1999 </span>  
-                 <span class="offer"> (53% off)</span>
-            </div>
-        </div> 
+<div class="product-buttons">
+    <button id="shirtProductButton" class="active">Shirts</button>
+    <button id="poloProductButton">Polos</button>
+  </div>
 
-          <!-- To display shirt type, Rate and Offer percentage --> 
-<div class="goat-sale-shirt">
-        <li class="carousel-slide2">
-            <img src="./Images/12goatshirt3.jpg" alt="Image 1"></li>           
-             <p class="goatshirt-content"> Grey Textured Jacquard Shirt</p>
-            <div class="rate">
-            <span class="amount"> ₹899</span>
-                 <span class="strike"> ₹1999 </span>  
-                 <span class="offer"> (55% off)</span>
-            </div>
-        </div> 
-
-         <!-- To display shirt type, Rate and Offer percentage -->
-     <div class="goat-sale-shirt">
-        <li class="carousel-slide2">
-            <img src="./Images/12goatshirt4.jpg" alt="Image 1"></li>  
-            <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-            <div class="rate">
-            <span class="amount"> ₹1175</span>
-                 <span class="strike"> ₹2999 </span>  
-                 <span class="offer"> (61% off)</span>
-            </div>
+  <!-- Shirt Carousel -->
+  <div id="shirtCarousel" class="custom-carousel active">
+    <div class="carousel-tracks" id="shirtCarouselTrack">
+      <!-- Shirt Images with details -->
+      <div>
+        <img src="./Images/12goatshirt1.jpg" alt="Shirt 1">
+        <div class="image-details">
+          <div class="line1">Dark Blue Dual Pocket Denim Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹1299</span>
+            <span class="price-striked">₹2499</span>
+            <span class="price-discount">(48% Off)</span>
+          </div>
         </div>
-
-        <div class="goat-sale-shirt">
-            <li class="carousel-slide2">
-                <img src="./Images/12goat shirt5.jpg" alt="Image 1"></li>  
-                <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                <div class="rate">
-                <span class="amount"> ₹1175</span>
-                     <span class="strike"> ₹2999 </span>  
-                     <span class="offer"> (61% off)</span>
-                </div>
-            </div>
-
-            <div class="goat-sale-shirt">
-                <li class="carousel-slide2">
-                    <img src="./Images/12goat shirt6.jpg" alt="Image 1"></li>  
-                    <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                    <div class="rate">
-                    <span class="amount"> ₹1175</span>
-                         <span class="strike"> ₹2999 </span>  
-                         <span class="offer"> (61% off)</span>
-                    </div>
-                </div> 
-
-                 <div class="goat-sale-shirt">
-                    <li class="carousel-slide2">
-                        <img src="./Images/12goat shirt7.jpg" alt="Image 1"></li>  
-                        <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                        <div class="rate">
-                        <span class="amount"> ₹1175</span>
-                             <span class="strike"> ₹2999 </span>  
-                             <span class="offer"> (61% off)</span>
-                        </div>
-                    </div>
-
-                    <div class="goat-sale-shirt">
-                        <li class="carousel-slide2">
-                            <img src="./Images/12goat shirt8.jpg" alt="Image 1"></li>  
-                            <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                            <div class="rate">
-                            <span class="amount"> ₹1175</span>
-                                 <span class="strike"> ₹2999 </span>  
-                                 <span class="offer"> (61% off)</span>
-                            </div>
-                        </div> 
-                        
-                         <div class="goat-sale-shirt">
-                            <li class="carousel-slide2">
-                                <img src="./Images/12goat shirt9.jpg" alt="Image 1"></li>  
-                                <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                                <div class="rate">
-                                <span class="amount"> ₹1175</span>
-                                     <span class="strike"> ₹2999 </span>  
-                                     <span class="offer"> (61% off)</span>
-                                </div>
-                            </div>                  
-                            <div class="goat-sale-shirt">
-                                <li class="carousel-slide2">
-                                    <img src="./Images/12goat shirt10.png" alt="Image 1"></li>  
-                                    <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                                    <div class="rate">
-                                    <span class="amount"> ₹1175</span>
-                                         <span class="strike"> ₹2999 </span>  
-                                         <span class="offer"> (61% off)</span>
-                                    </div>
-                                </div> 
-           
-  
-          </ul>
+      </div>
+      <div>
+        <img src="./Images/12goatshirt2.jpg" alt="Shirt 2">
+        <div class="image-details">
+          <div class="line1">Brown Waffle Plaid Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹940</span>
+            <span class="price-striked">₹1999</span>
+            <span class="price-discount">(53% off)</span>
+          </div>
         </div>
-        <button class="next2">❯</button>
-      </div> 
-    <!-- To display shirt type, Rate and Offer percentage -->
-    <!-- <div class="goat-sale-shirt">
-        <img src="./Images/12goatshirt1.jpg">
-        <p class="goatshirt-content"> Dark Blue Dual Pocket Denim Shirt</p>
-        <div class="rate">
-        <span class="amount"> ₹1299</span>
-             <span class="strike"> ₹2499 </span>  
-             <span class="offer"> (48% off)</span>
+      </div>
+      <div>
+        <img src="./Images/12goatshirt3.jpg" alt="Shirt 3">
+        <div class="image-details">
+          <div class="line1">Grey Textured Jacquard Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹899</span>
+            <span class="price-striked">₹1999</span>
+            <span class="price-discount"> (55% off)</span>
+          </div>
         </div>
-    </div> -->
-      <!-- To display shirt type, Rate and Offer percentage -->
-    <!-- <div class="goat-sale-shirt">
-    <img src="./Images/12goatshirt2.jpg">
-        <p class="goatshirt-content"> Brown Waffle Plaid Shirt</p>
-        <div class="rate">
-        <span class="amount"> ₹940</span>
-             <span class="strike"> ₹1999 </span>  
-             <span class="offer"> (53% off)</span>
+      </div>
+      <div>
+        <img src="./Images/12goatshirt4.jpg" alt="Shirt 4">
+        <div class="image-details">
+          <div class="line1">Light Blue Denim Jacket Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹1175</span>
+            <span class="price-striked">₹2999</span>
+            <span class="price-discount">(61% off)</span>
+          </div>
         </div>
-    </div>  -->
- <!-- To display shirt type, Rate and Offer percentage -->
-    <!-- <div class="goat-sale-shirt">
-        <img src="./Images/12goatshirt3.jpg">
-            <p class="goatshirt-content"> Grey Textured Jacquard Shirt</p>
-            <div class="rate">
-            <span class="amount"> ₹899</span>
-                 <span class="strike"> ₹1999 </span>  
-                 <span class="offer"> (55% off)</span>
-            </div>
-        </div> -->
-    
- <!-- To display shirt type, Rate and Offer percentage -->
-    <!-- <div class="goat-sale-shirt">
-        <img src="./Images/12goatshirt4.jpg">
-            <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-            <div class="rate">
-            <span class="amount"> ₹1175</span>
-                 <span class="strike"> ₹2999 </span>  
-                 <span class="offer"> (61% off)</span>
-            </div>
-        </div> -->
-   
-</section>
-
-<section class="eleven-buttons">
-    <button class="shirt">Cargos</button>
-    <button class="polo">Oversized T-shirts</button>
-</section>
-
-
-<section class="twelve-shirt">
-    <div class="carouselCargo">
-        <button class="prev3">❮</button>
-        <div class="carousel-track-container3">
-          <ul class="carousel-track3">
-            <div class="goat-sale-shirt">
-                <li class="carousel-slide3">
-                    <img src="./Images/13cargo1.jpg" alt="Image 1"></li>
-                <p class="goatshirt-content">Off White Signature Cargo Pants</p></p>
-                <div class="rate">
-                <span class="amount"> ₹998</span>
-                     <span class="strike"> ₹2999  </span>  
-                     <span class="offer"> (67% off)</span>
-                </div>
-            </div>
-
-              <!-- To display shirt type, Rate and Offer percentage -->
-<div class="goat-sale-shirt">
-        <li class="carousel-slide3">
-            <img src="./Images/13cargo2.jpg" alt="Image 1"></li>
-            <p class="goatshirt-content"> Brown Camo Cargo Pants for Men</p>
-            <div class="rate">
-            <span class="amount"> ₹1175</span>
-                 <span class="strike"> ₹2999 </span>  
-                 <span class="offer"> (61% off)</span>
-            </div>
-        </div> 
-
-          <!-- To display shirt type, Rate and Offer percentage --> 
-<div class="goat-sale-shirt">
-        <li class="carousel-slide3">
-            <img src="./Images/13cargo3.jpg" alt="Image 1"></li>           
-             <p class="goatshirt-content"> Dark Grey 6-Pockets Cargo Pants</p>
-            <div class="rate">
-            <span class="amount"> ₹1469</span>
-                 <span class="strike"> ₹3199  </span>  
-                 <span class="offer"> (54% off)</span>
-            </div>
-        </div> 
-
-         <!-- To display shirt type, Rate and Offer percentage -->
-     <div class="goat-sale-shirt">
-        <li class="carousel-slide3">
-            <img src="./Images/13cargo4.jpg" alt="Image 1"></li>  
-            <p class="goatshirt-content"> Sage green Cargo Pants for Men</p>
-            <div class="rate">
-            <span class="amount"> ₹998</span>
-                 <span class="strike"> ₹2999 </span>  
-                 <span class="offer"> (67% off)</span>
-            </div>
+      </div>
+      <div>
+        <img src="./Images/12goat shirt5.jpg" alt="Shirt 5">
+        <div class="image-details">
+          <div class="line1">Light Blue Denim Jacket Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹1175</span>
+            <span class="price-striked">₹2999 </span>
+            <span class="price-discount">(61% off)</span>
+          </div>
         </div>
-
-        <div class="goat-sale-shirt">
-            <li class="carousel-slide3">
-                <img src="./Images/13cargo5.jpg" alt="Image 1"></li>  
-                <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                <div class="rate">
-                <span class="amount"> ₹1175</span>
-                     <span class="strike"> ₹2999 </span>  
-                     <span class="offer"> (61% off)</span>
-                </div>
-            </div>
-
-            <div class="goat-sale-shirt">
-                <li class="carousel-slide3">
-                    <img src="./Images/13cargo6.jpg" alt="Image 1"></li>  
-                    <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                    <div class="rate">
-                    <span class="amount"> ₹1175</span>
-                         <span class="strike"> ₹2999 </span>  
-                         <span class="offer"> (61% off)</span>
-                    </div>
-                </div> 
-
-                 <div class="goat-sale-shirt">
-                    <li class="carousel-slide3">
-                        <img src="./Images/13cargo7.jpg" alt="Image 1"></li>  
-                        <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                        <div class="rate">
-                        <span class="amount"> ₹1175</span>
-                             <span class="strike"> ₹2999 </span>  
-                             <span class="offer"> (61% off)</span>
-                        </div>
-                    </div>
-
-                    <div class="goat-sale-shirt">
-                        <li class="carousel-slide3">
-                            <img src="./Images/13cargo8.jpg" alt="Image 1"></li>  
-                            <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                            <div class="rate">
-                            <span class="amount"> ₹1175</span>
-                                 <span class="strike"> ₹2999 </span>  
-                                 <span class="offer"> (61% off)</span>
-                            </div>
-                        </div> 
-                        
-                         <div class="goat-sale-shirt">
-                            <li class="carousel-slide3">
-                                <img src="./Images/13cargo9.jpg" alt="Image 1"></li>  
-                                <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                                <div class="rate">
-                                <span class="amount"> ₹1175</span>
-                                     <span class="strike"> ₹2999 </span>  
-                                     <span class="offer"> (61% off)</span>
-                                </div>
-                            </div>                  
-                            <div class="goat-sale-shirt">
-                                <li class="carousel-slide3">
-                                    <img src="./Images/13cargo10.png" alt="Image 1"></li>  
-                                    <p class="goatshirt-content"> Light Blue Denim Jacket Shirt</p>
-                                    <div class="rate">
-                                    <span class="amount"> ₹1175</span>
-                                         <span class="strike"> ₹2999 </span>  
-                                         <span class="offer"> (61% off)</span>
-                                    </div>
-                                </div> 
-           
-  
-          </ul>
+      </div>
+      <div>
+        <img src="./Images/12goat shirt6.jpg" alt="Shirt 6">
+        <div class="image-details">
+          <div class="line1">Light Blue Denim Jacket Shirt</div>
+          <div class="line2">
+            <span class="price-original"> ₹1175</span>
+            <span class="price-striked">₹2999</span>
+            <span class="price-discount">(61% off)</span>
+          </div>
         </div>
-        <button class="next3">❯</button>
-      </div> 
-      </section>
-<!-- <section class="twelve-shirt">
-    <!-- To display shirt type, Rate and Offer percentage -->
-    <!-- <div class="goat-sale-shirt">
-        <img src="./Images/13cargo1.jpg">
-        <p class="goatshirt-content">
-            Off White Signature Cargo Pants</p>
-        <div class="rate">
-        <span class="amount"> ₹998</span>
-             <span class="strike"> ₹2999 </span>  
-             <span class="offer"> (67% off)</span>
+      </div>
+      <div>
+        <img src="./Images/12goat shirt7.jpg" alt="Shirt 7">
+        <div class="image-details">
+          <div class="line1">Light Blue Denim Jacket Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹1175</span>
+            <span class="price-striked">₹2999</span>
+            <span class="price-discount">(61% off)</span>
+          </div>
         </div>
-    </div> -->
-     <!-- To display shirt type, Rate and Offer percentage -->
-    <!-- <div class="goat-sale-shirt">
-    <img src="./Images/13cargo2.jpg">
-        <p class="goatshirt-content"> Brown Camo Cargo Pants for Men
-            </p>
-        <div class="rate">
-        <span class="amount"> ₹1175</span>
-             <span class="strike"> ₹2999 </span>  
-             <span class="offer"> (61% off)</span>
+      </div>
+      <div>
+        <img src="./Images/12goat shirt8.jpg" alt="Shirt 8">
+        <div class="image-details">
+          <div class="line1">Light Blue Denim Jacket Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹1175</span>
+            <span class="price-striked">₹2999</span>
+            <span class="price-discount">(61% off)</span>
+          </div>
         </div>
+      </div>
+      <div>
+        <img src="./Images/12goat shirt9.jpg" alt="Shirt 9">
+        <div class="image-details">
+          <div class="line1">Light Blue Denim Jacket Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹1175</span>
+            <span class="price-striked">₹2999</span>
+            <span class="price-discount">(61% off)</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="./Images/12goat shirt10.png" alt="Shirt 10">
+        <div class="image-details">
+          <div class="line1">Light Blue Denim Jacket Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹1175</span>
+            <span class="price-striked">₹2999 </span>
+            <span class="price-discount"> (61% off)</span>
+          </div>
+        </div>
+      </div>
     </div>
- <!-- To display shirt type, Rate and Offer percentage -->
-    <!-- <div class="goat-sale-shirt">
-        <img src="./Images/13cargo3.jpg">
-            <p class="goatshirt-content"> Dark Grey 6-Pockets Cargo Pants</p>
-            <div class="rate">
-            <span class="amount"> ₹1469</span>
-                 <span class="strike"> ₹3199 </span>  
-                 <span class="offer"> (54% off)</span>
+    <div class="carousel-controlss">
+      <button class="prev" id="shirtPrev">&#8249;</button>
+      <button class="next" id="shirtNext">&#8250;</button>
+    </div>
+  </div>
+
+  <!-- Polo Carousel -->
+  <div id="poloCarousel" class="custom-carousel">
+    <div class="carousel-tracks" id="poloCarouselTrack">
+      <!-- Polo Images with details -->
+      <div>
+        <img src="./Images/12polo1.jpg" alt="Polo 1">
+        <div class="image-details">
+          <div class="line1">Dark Blue Dual Pocket Denim Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹1299</span>
+            <span class="price-striked">₹2499</span>
+            <span class="price-discount">(48% off)</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="./Images/12polo2.jpg" alt="Polo 2">
+        <div class="image-details">
+          <div class="line1">Brown Waffle Plaid Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹940</span>
+            <span class="price-striked">₹1999</span>
+            <span class="price-discount">(53% off)</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="./Images/12polo3.jpg" alt="Polo 3">
+        <div class="image-details">
+          <div class="line1">Grey Textured Jacquard Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹899</span>
+            <span class="price-striked">₹1999</span>
+            <span class="price-discount">(55% off)</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="./Images/12polo4.jpg" alt="Polo 4">
+        <div class="image-details">
+          <div class="line1">Light Blue Denim Jacket Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹1175</span>
+            <span class="price-striked">₹2999</span>
+            <span class="price-discount">(61% off)</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="./Images/12polo5.jpg" alt="Polo 5">
+        <div class="image-details">
+          <div class="line1">Light Blue Denim Jacket Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹1175</span>
+            <span class="price-striked">₹2999</span>
+            <span class="price-discount">(61% off)</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="./Images/12polo6.jpg" alt="Polo 6">
+        <div class="image-details">
+          <div class="line1">Light Blue Denim Jacket Shirt</div>
+          <div class="line2">
+            <span class="price-original">₹1600</span>
+            <span class="price-striked">₹1800</span>
+            <span class="price-discount">15% Off</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="./Images/12polo7.jpg" alt="Polo 7">
+        <div class="image-details">
+          <div class="line1">Pink Polo</div>
+          <div class="line2">
+            <span class="price-original">₹1300</span>
+            <span class="price-striked">₹1500</span>
+            <span class="price-discount">25% Off</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="./Images/12polo8.jpg" alt="Polo 8">
+        <div class="image-details">
+          <div class="line1">Grey Polo</div>
+          <div class="line2">
+            <span class="price-original">₹1400</span>
+            <span class="price-striked">₹1700</span>
+            <span class="price-discount">20% Off</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="./Images/12polo9.jpg" alt="Polo 9">
+        <div class="image-details">
+          <div class="line1">Brown Polo</div>
+          <div class="line2">
+            <span class="price-original">₹1500</span>
+            <span class="price-striked">₹1900</span>
+            <span class="price-discount">10% Off</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="./Images/12polo10.png" alt="Polo 10">
+        <div class="image-details">
+          <div class="line1">Orange Polo</div>
+          <div class="line2">
+            <span class="price-original">₹2000</span>
+            <span class="price-striked">₹2200</span>
+            <span class="price-discount">5% Off</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-controlss">
+      <button class="prev" id="poloPrev">&#8249;</button>
+      <button class="next" id="poloNext">&#8250;</button>
+    </div>
+  </div>
+      <div class="product-buttons">
+        <button id="cargosProductButton" class="active">Cargos</button>
+        <button id="oversizedProductButton">Oversized T-Shirts</button>
+      </div>
+    
+      <!-- Cargos Carousel -->
+      <div id="cargosCarousel" class="custom-carousel active">
+        <div class="carousel-tracks" id="cargosCarouselTrack">
+          <!-- Cargos Images with details -->
+          <div>
+            <img src="./Images/13cargo1.jpg" alt="Cargo 1">
+            <div class="image-details">
+              <div class="line1">Dark Green Cargo</div>
+              <div class="line2">
+                <span class="price-original">₹1500</span>
+                <span class="price-striked">₹2000</span>
+                <span class="price-discount">50% Off</span>
+              </div>
             </div>
-        </div> -->
-     
- <!-- To display shirt type, Rate and Offer percentage -->
-    <!-- <div class="goat-sale-shirt">
-        <img src="./Images/13cargo4.jpg">
-            <p class="goatshirt-content">Sage green Cargo Pants for Men</p>
-            <div class="rate">
-            <span class="amount"> ₹998</span>
-                 <span class="strike"> ₹2999 </span>  
-                 <span class="offer"> (67% off)</span>
+          </div>
+          <div>
+            <img src="./Images/13cargo2.jpg" alt="Cargo 2">
+            <div class="image-details">
+              <div class="line1">Khaki Cargo</div>
+              <div class="line2">
+                <span class="price-original">₹1200</span>
+                <span class="price-striked">₹1600</span>
+                <span class="price-discount">25% Off</span>
+              </div>
             </div>
-        </div> -->
-   
-<!-- </section>  -->
+          </div>
+          <div>
+            <img src="./Images/13cargo3.jpg" alt="Cargo 3">
+            <div class="image-details">
+              <div class="line1">Beige Cargo</div>
+              <div class="line2">
+                <span class="price-original">₹1800</span>
+                <span class="price-striked">₹2200</span>
+                <span class="price-discount">40% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13cargo4.jpg" alt="Cargo 4">
+            <div class="image-details">
+              <div class="line1">Black Cargo</div>
+              <div class="line2">
+                <span class="price-original">₹1000</span>
+                <span class="price-striked">₹1300</span>
+                <span class="price-discount">30% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13cargo5.jpg" alt="Cargo 5">
+            <div class="image-details">
+              <div class="line1">Navy Blue Cargo</div>
+              <div class="line2">
+                <span class="price-original">₹1400</span>
+                <span class="price-striked">₹1800</span>
+                <span class="price-discount">20% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13cargo6.jpg" alt="Cargo 6">
+            <div class="image-details">
+              <div class="line1">Olive Cargo</div>
+              <div class="line2">
+                <span class="price-original">₹1600</span>
+                <span class="price-striked">₹2000</span>
+                <span class="price-discount">10% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13cargo7.jpg" alt="Cargo 7">
+            <div class="image-details">
+              <div class="line1">Red Cargo</div>
+              <div class="line2">
+                <span class="price-original">₹1500</span>
+                <span class="price-striked">₹1800</span>
+                <span class="price-discount">15% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13cargo8.jpg" alt="Cargo 8">
+            <div class="image-details">
+              <div class="line1">Grey Cargo</div>
+              <div class="line2">
+                <span class="price-original">₹1700</span>
+                <span class="price-striked">₹2000</span>
+                <span class="price-discount">10% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13cargo9.jpg" alt="Cargo 9">
+            <div class="image-details">
+              <div class="line1">White Cargo</div>
+              <div class="line2">
+                <span class="price-original">₹1600</span>
+                <span class="price-striked">₹1800</span>
+                <span class="price-discount">5% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13cargo10.png" alt="Cargo 10">
+            <div class="image-details">
+              <div class="line1">Brown Cargo</div>
+              <div class="line2">
+                <span class="price-original">₹1800</span>
+                <span class="price-striked">₹2200</span>
+                <span class="price-discount">25% Off</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controlss">
+          <button class="prev" id="cargosPrev">&#8249;</button>
+          <button class="next" id="cargosNext">&#8250;</button>
+        </div>
+      </div>
+    
+      <!-- Oversized T-Shirts Carousel -->
+      <div id="oversizedCarousel" class="custom-carousel">
+        <div class="carousel-tracks" id="oversizedCarouselTrack">
+          <!-- Oversized T-Shirts Images with details -->
+          <div>
+            <img src="./Images/13over1.jpg" alt="Oversized 1">
+            <div class="image-details">
+              <div class="line1">Dark Blue Oversized T-Shirt</div>
+              <div class="line2">
+                <span class="price-original">₹1800</span>
+                <span class="price-striked">₹2200</span>
+                <span class="price-discount">10% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13over2.jpg" alt="Oversized 2">
+            <div class="image-details">
+              <div class="line1">Grey Oversized T-Shirt</div>
+              <div class="line2">
+                <span class="price-original">₹1500</span>
+                <span class="price-striked">₹1800</span>
+                <span class="price-discount">15% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13over3.jpg" alt="Oversized 3">
+            <div class="image-details">
+              <div class="line1">Black Oversized T-Shirt</div>
+              <div class="line2">
+                <span class="price-original">₹1700</span>
+                <span class="price-striked">₹2000</span>
+                <span class="price-discount">20% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13over44.jpg" alt="Oversized 4">
+            <div class="image-details">
+              <div class="line1">White Oversized T-Shirt</div>
+              <div class="line2">
+                <span class="price-original">₹1600</span>
+                <span class="price-striked">₹1900</span>
+                <span class="price-discount">5% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13over5.jpg" alt="Oversized 5">
+            <div class="image-details">
+              <div class="line1">Olive Oversized T-Shirt</div>
+              <div class="line2">
+                <span class="price-original">₹1800</span>
+                <span class="price-striked">₹2200</span>
+                <span class="price-discount">25% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13over6.jpg" alt="Oversized 6">
+            <div class="image-details">
+              <div class="line1">Red Oversized T-Shirt</div>
+              <div class="line2">
+                <span class="price-original">₹1500</span>
+                <span class="price-striked">₹1900</span>
+                <span class="price-discount">15% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13over7.jpg" alt="Oversized 7">
+            <div class="image-details">
+              <div class="line1">Navy Blue Oversized T-Shirt</div>
+              <div class="line2">
+                <span class="price-original">₹1600</span>
+                <span class="price-striked">₹2000</span>
+                <span class="price-discount">20% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13over8.jpg" alt="Oversized 8">
+            <div class="image-details">
+              <div class="line1">Pink Oversized T-Shirt</div>
+              <div class="line2">
+                <span class="price-original">₹1700</span>
+                <span class="price-striked">₹2100</span>
+                <span class="price-discount">10% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13over9.jpg" alt="Oversized 9">
+            <div class="image-details">
+              <div class="line1">Beige Oversized T-Shirt</div>
+              <div class="line2">
+                <span class="price-original">₹1400</span>
+                <span class="price-striked">₹1800</span>
+                <span class="price-discount">5% Off</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="./Images/13over10.png" alt="Oversized 10">
+            <div class="image-details">
+              <div class="line1">Yellow Oversized T-Shirt</div>
+              <div class="line2">
+                <span class="price-original">₹1600</span>
+                <span class="price-striked">₹1900</span>
+                <span class="price-discount">20% Off</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controlss">
+          <button class="prev" id="oversizedPrev">&#8249;</button>
+          <button class="next" id="oversizedNext">&#8250;</button>
+        </div>
+      </div>
+
 <section class="NewArrivals">
     <img src="./Images/14newarrivals.jpg">
 </section>
@@ -610,10 +759,7 @@
         </div>
         <button class="next4">❯</button>
       </div>
-<!-- <img src="./Images/top1.jpg">
-<img src="./Images/top2.jpg">
-<img src="./Images/top3.jpg">
-<img src="./Images/top4.jpg"> -->
+
 </section>
 <section class="thirteen-TopWearContent">
 
@@ -631,10 +777,7 @@
         </div>
         <button class="next5">❯</button>
       </div>
-    <!-- <img src="./Images/top5.jpg">
-    <img src="./Images/top6.jpg">
-    <img src="./Images/top7.jpg">
-    <img src="./Images/top8.jpg"> -->
+    
 
     </section>
 
@@ -659,10 +802,7 @@
             </div>
             <button class="next6">❯</button>
           </div>
-    <!-- <img src="./Images/bottom1.jpg">
-    <img src="./Images/bottom2.jpg">
-    <img src="./Images/bottom3.jpg">
-    <img src="./Images/bottom4.jpg"> -->
+
     </section>
 <section class="discount">
     <h2>DISCOUNT DEALS </h2>
@@ -706,10 +846,7 @@
       </div>
 
 
-    <!-- <img src="./Images/celeb1.jpg">
-    <img src="./Images/celeb2.jpg">
-    <img src="./Images/celeb3.jpg">
-    <img src="./Images/celeb4.jpg"> -->
+ 
 </section>
 <section class="featured">
     <hr><span>FEATURED ON</span><hr>
@@ -734,6 +871,7 @@
        
     </section>
 </section>
+
 <section class="footer">
     <div class="footercontent">
 <section class="needhelp">
@@ -775,13 +913,220 @@
         <img src="./Images/apple.png">
     </section>
 </section>
-
 </div>
 
+
+<section class="choose">
+    <div class="toggle-container" onclick="toggleContent()">
+      <h3>WHY CHOOSE US?</h3>
+      <span class="arrow"></span>
+    </div>
+    <section class="content" id="toggle-content">
+     <div>
+            <h3>Beyoung - An Affordable Online Shopping Site in India</h3>
+            <p class="contentGap">Online shopping was rapidly gaining popularity, yet affordable and trendy options were limited. In 2018, when “fashion” was often synonymous with high-end and pricey labels, many young minds got an idea. This idea evolved into Beyoung, which has since become one of India's best online shopping sites for stylish clothing.</p>
+        <p class="contentGap">Beyoung is exactly what its name suggests—Being Young because youthfulness is a timeless concept. It’s about embracing experiments, fun, and fashion—not only in clothing but in life itself. At Beyoung, we live by this philosophy, offering a wide range of products that have earned us a reputation as one of India’s most trusted online clothing shopping destinations. You can embrace style and confidence with us, making us your go-to brand</p>        
+        <p class="contentGap">At the heart of our brand is a dedication to delivering the latest trends without compromising your budget. True to our motto—Aspirational, Affordable, Convenient, we ensure that style and savings go hand in hand. Our streamlined processes, reliable delivery, and easy return policies guarantee that your shopping journey is as enjoyable and stress-free as possible. So, for an amazing online shopping experience, try Beyoung.</p>
+    
+<h3 >Shop Smarter with the Leading Online Shopping Site for Clothes</h3>
+<p class="contentGap">Beyoung is not just another online shopping site; it’s your ultimate fashion destination. Here’s why shopping at Beyoung is a smart choice:
+</p>
+<ul class="listed">
+<li>Your budget matters to us - Everybody deserves to look good. We understand that fashion should be accessible to all, regardless of one's budget. That's why we carry a collection tailored to suit every financial bracket. Rest assured, with Beyoung as your go-to online clothing store, revamping your wardrobe needn't come at the cost of burning a hole in your pocket.
+</li>
+<li>We deliver what you deserve - As a convenient destination for online clothing shopping, quality is our top priority. Our dedicated team carefully selects only the finest materials for our products, ensuring that their refined aesthetic endures over time. Like many others, you can count on us to deliver stylish, durable pieces that will have you turning heads and becoming the talk of the town.
+</li>
+<li>Customer-first approach - As a leading online shopping site for clothes, Beyoung works on a direct-to-consumer model. So between the two of us, you get what you need at the most reasonable prices and stay fashionable always.
+</li>
+<li>One-stop shop - Who wants to hop from brand to brand to get a proper outfit? Not you for sure. That's why just for you, from dates to boardroom meetings, we make it easy for you to order clothes online. Our range of clothes guarantees that you'll find the perfect piece to complement your unique style.
+</li>
+
+</ul>
+<p class="contentGap">If you’re still wondering why Beyoung is one of the most trusted online shopping sites for clothes in India, let us tell you more about what makes our brand stand out.
+</p>
+<h3>Why Beyoung and Not Any Other Indian Fashion Websites?
+</h3>
+<p class="contentGap">We hear that a lot, so let’s clear things up once and for all. As one of the most affordable online shopping stores in India, Beyoung is your go-to brand for everyday fashion. Whether you're looking for plain t-shirts, classic satin shirts, comfortable joggers, or breathable boxers – we've got it all.
+</p>
+<h3>Your own online fashion store - With you, For you!
+</h3>
+<p class="contentGap">Our continuous efforts are focused on making life more convenient for our shoppers and ensuring that Beyoung becomes your go-to online shopping website. Keeping this at the core of everything we do, we've introduced a variety of shopping options, such as the make-your-own combo and shop-the-look features, to better serve our customers. With these features, you can select any size and any color, and create your own unique look.
+</p>
+<p class="contentGap">What started as a dream to make everyday fashion accessible has blossomed into a reality. Beyoung has become more than just an online fashion store - we've evolved into a trusted fashion companion for our valued customers. It's been an amazing ride watching this small family grow into a massive community of over 3 million satisfied customers across India. We're deeply humbled and grateful for your support.
+</p>
+<h3>Perks of Being a Part of Our Online Clothing Shop
+</h3>
+<p class="contentGap">By now you must have understood the assignment well, right? We're more than just an online shopping site in India selling fashionable clothing. We're truly yours, and, well, you're ours too. And let us tell you—being one of us, a Beyoungster, comes with plenty of perks!
+</p>
+<h3>You get to put the fab in fashion</h3>
+<p class="contentGap">When you shop with the leading online clothing shopping website in India, your style gets recognized and cherished. The fashion-monger in you shines and our swanky collection of affordable fashion clothing makes heads turn in your direction.
+</p>
+<h3>You save big</h3>
+<p class="contentGap">We understand that your hard-earned money isn’t just for buying clothes online. That’s why our exclusive online shopping offers on every purchase won’t make you a billionaire, but they’ll certainly help you avoid unnecessary financial crunches.</p>
+<h3>You can be picky</h3>
+<p class="contentGap">With tons of styles, colors, patterns, and designs, we give you the liberty to scroll through and find your special something. Beyoung as the leading online shopping site for clothes offers you a collection of colorful shirts, t-shirts, and trendy joggers, all waiting for you to check them out.
+</p>
+<h3>You get COD options</h3>
+<p class="contentGap">With many fake shopping websites defrauding customers online, cash on delivery gives you an extra ounce of trust and authority and you want that, understandably so. At Beyoung - a trusted online clothing store, you get what you want and how you want. We deliver pan India with COD options available.
+</p>
+<h3>You get transparency</h3>
+<p class="contentGap">Life throws many curveballs your way, we don't! With a robust and well-implementable return and refund policy in place, we aim to make your shopping experience stress-free. Beyoung, your trusted online shopping store gives you all the power to shop for clothes according to your preference.
+</p>
+<h3>What's New with India's Favorite Online Clothing Shopping Site?</h3>
+<p class="contentGap">As India’s leading fashion shopping site, we’re buzzing with exciting updates you won’t want to miss! At Beyoung, we understand that style is personal, which is why we’ve curated a wide range of options to suit every taste and preference. From unique prints to standout designs, there's something for everyone. The best part? Our easy navigation and hassle-free return process make shopping a breeze. Stay ahead of the fashion curve and refresh your wardrobe at Beyoung. Shop now and discover why we’re India’s favorite online shopping destination!
+</p>
+<h3>India's Top Online Clothing Store for You</h3>
+<p class="contentGap">Wow, you've scrolled a long way—impressive! In addition to being the best website to buy clothes in India, we focus on bringing you the latest styles, quirky designs, and fabrics you'll fall in love with. Our exclusive collection of branded clothing offers great value for your money. Each item in our online store comes in a wide range of sizes and colors, from vibrant hues to classic solids, and sizes ranging from S to 5XL. Plus, every product includes a size chart for easy reference and a detailed description to help you make the best choice. So, whether you’re looking to refresh your wardrobe or find the perfect outfit for someone special, you know exactly where to go—Beyoung!
+</p>
+<h3>A Variety of Fashionable Clothes at Beyoung's Online Store</h3>
+<p class="contentGap">Beyoung, as your go-to online shopping destination, delivers your favorite picks right to your doorstep. Our customers rave about our collection of the latest fashion pieces, including -
+</p>
+<h3>Men's Fashion Wear for Everyday Styling</h3>
+<p class="contentGap">For ages, men have been subjected to boring clothing and Beyoung is here to change that. Our range of clothing for men is designed to make you feel fashionable and boost your confidence. Here are some of our most popular menswear categories -
+</p>
+<ul class="listed1"><h3>1.T-shirts for Men</h3>
+<p class="contentGap">T-shirts are a quintessential part of our wardrobes. You can never have enough of them, especially if you're hooked to our t-shirts for men, there is barely anything you can do except buying them more often. Some of our best-selling men's t-shirts are -</p>
+<li>Plain T-shirts</li>
+<p class="contentGap">Plain t-shirts at our online clothing store are evergreen pieces that give you an effortlessly fashionable look. You can wear our range of Plain T-shirts with classic denim, super cool Cargo Pants, Joggers, and even Shorts. We offer these tees as a single product and as a combo of 3 and 4, where you can pick out sizes and colors as you like.</p>
+<li>Printed T-shirts</li>
+<p class="contentGap">If you are in love with all things printed, our range of Printed T-shirts for men will surely get your attention. Beyoung's collection of printed tees can satisfy your hippie and urban soul and make you stand out from the crowd.</p>
+<li>Oversized T-shirts</li>
+<p class="contentGap">If in 2024 you're not buying oversized t-shirts, what are you even doing? Make your life easier and shop our oversized t-shirts for men. They are not just roomy but extremely in trend. Explore our collection today!</p>
+<li>Polo T-shirts</li>
+<p class="contentGap">Nothing exudes class and elegance more than Polo t-shirts. A good pair of jeans or trousers when paired with one of our exclusively created men's polo t-shirts can take your look notches up.</p>
+<li>Full-Sleeve T-shirts</li>
+<p class="contentGap">They are your perfect partner when the weather is a little chilled or the sun is glaring at you. You can wear these Full-Sleeve T-shirts to give a contemporary look to your ensemble. We offer these t-shirts as single products and in a pack of 2, 3, and 4.</p>
+<li>Plus Size T-shirts</li>
+<p class="contentGap">Inclusivity is a cornerstone of our online clothing brand, and in keeping up with that, we offer Plus-Size T-shirts. The use of 100% cotton makes the product extra soft that you can wear all day. We offer these as a single product or even as a combo of 3 and 4 where you can select any size, ranging from L to 5XL, and colors of your choosing.</p>
+<li>Half-Sleeve T-shirts</li>
+<p class="contentGap">Half-sleeve t-shirts don't need an introduction. These have been around us for quite some time now and their popularity has no match. Our half-sleeve t-shirts are your perfect buddy for every occasion.</p>
+</ul>
+<h3>2.Chinos</h3>
+<p class="contentGap">Chinos are your perfect buddy for a comfortable feel suitable for both formal and casual looks. With their stretchable fabric, our Chino Pants give you the ultimate comfort and class all day long.</p>
+<h3>3.Jeans</h3>
+<p class="contentGap">Beyoung’s online clothes shopping site has exclusively designed Jeans for Men for comfort and durability. When you buy a pair of jeans from your favorite online shopping site in India, you get the utmost quality and the coolest designs.</p>
+<ul class="listed1">
+<h3>4.Shirts</h3>
+<p class="contentGap"> What food is to the body is what shirts are to men, essential. We offer an array of shirts that make your wardrobe better and brighter. Here are some of our customer-approved shirts for men -</p>
+<li>Casual Shirts</li>
+<p class="contentGap">Casual shirts are all about easygoing style, and Beyoung makes them even better with our range of stylish options. Designed for maximum comfort and versatility, these shirts are perfect for creating a relaxed yet polished look.</p>
+<li>Formal Shirts</li>
+<p class="contentGap">Good ol' formal shirts have their own unbeatable charm. Make the most of these simple yet sophisticated pieces of clothing with Beyoung. Our formal shirts are not so formal, explore our range to know how.</p>
+<li>Satin Shirts</li>
+<p class="contentGap">When the weekend hits or it's time to crack a deal, dress to impress in our classic satin shirts. These are made with smooth and breathable material to keep you cool and fresh from AM to PM.</p>
+<li>Checked Shirts</li>
+<p class="contentGap">Saying “checked shirts are a classic” is an understatement. These fashionable clothes find their way into everybody's closet. You can pair checks shirts with a solid tee or button them up for an uber-cool look. It's all up to you.</p>
+<li>Plain Shirts</li>
+<p class="contentGap">Plain shirts have a timeless appeal that never goes out of style. At Beyoung, we take these classic essentials and add a modern twist. Our plain shirts are anything but ordinary—discover our collection to see how simple can be strikingly stylish.</p>
+<li>Denim Shirts</li>
+<p class="contentGap">From casual days to smart casual nights, denim shirts never disappoint. At Beyoung, we’ve taken the classic design and added a modern flair, making it your go-to piece for effortless style.</p>
+<li>Urban Shirts</li>
+<p class="contentGap">Our Urban Shirts are perfect for your urban personality. We focus on style, comfort, and durability with a timeless design that is sure to give you a classic look that you can wear all day long.</p>
+<li>Hawaiian Shirts</li>
+<p class="contentGap">Beach lovers get ready for our exclusive collection of Hawaiian shirts. Their floral prints and breathable fabric make them your ideal perfect companion. Keep an eye on our floral shirt collection and let your vibe shine this summer!</p>
+</ul>
+<h3>5.Cargo Pants and Joggers</h3>
+<p class="contentGap">When life gives you a chance, wear cargo! These comfy pants make your everyday hustle less painful. Browse through our collection of joggers and cargo pants for men today to find the best of Indian fashion online.</p>
+<h3>6.Pajamas</h3>
+<p class="contentGap">Pajamas for men are essential nightwear that combines comfort and style. Indeed, the right pair gives you much-needed relaxation too. Beyoung offers a standout collection that exemplifies both the luxury of comfort and the allure of style.</p>
+<h3>7.Boxers</h3>
+<p class="contentGap">If you are going to purchase boxers for men online in India, then you have landed at the right place. Beyoung is your perfect destination for the latest designs and patterns in men's boxers. Whether you like simple colors or bold prints, our collection serves all tastes.</p>
+<h3>8.Shorts</h3>
+<p class="contentGap">Why choose boring pieces when you can have Beyoung's shorts? The shorts are designed to keep you cool and comfy. You're good to go for couch sessions to weekend getaways. Colors pop, fit rock, and so forth; the Beyoung shorts are your effortless swagger.</p>
+<h3>Women's Clothing Range</h3>
+<p class="contentGap">Beyoung focuses on offering quality women's wear for everyday fashion. Some of our best sellers for women include -</p>
+<h3>1.Women's T-shirts</h3>
+<p class="contentGap">T-shirts for women are the real fashion underdogs. There are many types of women's t-shirts available at Beyoung for you to explore and style.</p>
+<ul class="listed1">
+<li>Full- Sleeves T-shirts</li>
+<p class="contentGap">You can never go wrong with full-sleeve t-shirts, they are cool, fashionable, and comfortable. When in confusion grab a full-sleeves t-shirt, pair it with denims, and you're all set.</p>
+<li>Oversized T-shirts</li>
+<p class="contentGap">Oversized women's t-shirts are in trend. If you are into street style - baggy jeans, and comfy sneakers, an oversized tee is all that you need to add that extra oomph to your personality.</p>
+<li>Half-Sleeves T-shirts</li>
+<p class="contentGap">Our range of half-sleeve t-shirts is the talk of the town. Their color, design, and fabric are worth every penny you spend. Browse our catalog today!</p>
+<li>Plain T-shirts</li>
+<p class="contentGap">Plain tees are your security blanket to fall on. On days when you are getting late for college or just want to go out to run some errands, plain t-shirts are your best buds. Try our latest collection today and enjoy amazing online shopping offers!</p>
+<li>Plus Size T-shirts</li>
+<p class="contentGap">Beyoung is not your regular online shopping store, it is a place where your style and comfort are cherished. We carry an immense catalog of women's plus-size t-shirts for your comfort. Explore and find your pick today!</p>
+</ul>
+<h3>2.Shorts</h3>
+<p class="contentGap">Your wardrobe is incomplete without some cool pairs of shorts. No worries! If you don't have one yet, buy your first pair of shorts at Beyoung and get exclusive discounts on every order.</p>
+<h3>Exclusive Combo Options at Beyoung</h3>
+<p class="contentGap"> Our combo products are a standout feature, offering you the freedom to personalize your selection. You can choose any size and color. We offer a variety of combos, including plain shirts, plain T-shirts, cargo joggers, pajamas, and much more.</p>
+<p class="contentGap">So, if you are on a tight budget or just want to save some extra cash while shopping, our combo options are perfect for you.</p>
+<p class="contentGap">Beyoung strives to make online clothing shopping a seamless and hassle-free experience for our Beyoungsters. Our user-friendly navigation, exclusive fashion clothes, and pocket-friendly prices will make you fall in love with India's favorite online shopping site for clothes.</p>
+<h3>FAQs</h3>
+<h3>1.Which site is best for online shopping?</h3>
+<p class="contentGap">Shopping at Beyoung is effortless and convenient. We offer trendy styles at affordable prices, ensuring an exceptional online shopping experience. Explore Beyoung today and discover fashion made simple!</p>
+<h3>2.Is online clothing shopping good or not?</h3>
+<p class="contentGap">Online clothing shopping is a lifesaver in today’s fast-paced world. It saves you the hassle of stepping out while offering endless choices from the comfort of your home. For those on a tight budget and schedule, Beyoung is the perfect solution, offering stylish clothing options at pocket-friendly prices.</p>
+<h3>3.How do I know if Beyoung's online store is safe?</h3>
+<p class="contentGap">Beyoung is a trusted name for online shopping in India. We prioritize your privacy and adhere to Indian laws to keep your data secure. You can also check the padlock in the URL field that says safe for you to browse.</p>
+<h3>4.Is it safe to shop on Beyoung’s shopping site?</h3>
+<p class="contentGap">Yes, Beyoung’s website is 100% safe and secure. Our platform is tested and protects your privacy at all times. You can browse through an array of new and trendy clothes. From uber-cool joggers to classy urban and clubwear shirts, get all in one secure shopping destination.</p>
+<h3>5.Can I trust Beyoung as an online clothing website?</h3>
+<p class="contentGap">Absolutely! You can trust Beyoung as your online clothing shopping destination. Our exclusive features like Shop the Look, Make Your Combo, and others give you the much-needed freedom to style your clothes, your way. With secure checkout, COD options, and hassle-free return, exchange, and refund policies, Beyoung ensures a safe and enjoyable shopping experience.</p>
+<h3>6.Where can you buy clothes online for everyday fashion?</h3>
+<p class="contentGap">For everyday fashion, Beyoung is your go-to destination. We bring you a curated collection of trendy clothing for both men and women at affordable prices. Browse our catalog today to upgrade your wardrobe with the latest styles!</p>
+</section>
+    <span class="read-more-less" id="read-more-less" onclick="toggleReadMore()">Read More+</span>
+<hr>
+</section>
+
+<section>
+    <div class="header-container" onclick="toggleSection()">
+      <h3>POPULAR CATEGORIES</h3>
+      <span class="toggle-arrow" id="arrow-icon"></span>
+    </div>
+    <div class="hidden-content" id="expandable-content">
+        <h3>Men's Clothing</h3>
+        <p>Men's T-shirts: Men's Half Sleeve T-shirts | Men's Full sleeve T-shirts | Men's Oversized T-shirts | Men's Plus size T-shirts | Men's Plain T-shirts | Men's Printed T-shirts | Men's Polo T-shirts | Men's Drop Shoulder T-shirts | T-shirt Combo</p>
+        <p> Men's Shirts: Men's Checks Shirts | Men's Casual Shirts | Men's Urban Shirts | Men's Striped Shirts | Men's Formal Shirts | Men's Linen Shirts | Men's Printed Shirts | Men's Plain Cotton Shirts | Men's Denim Shirts | Men's Satin Shirts | Men's Textured Shirts | Men's Oversized Shirts | Men's Corduroy Shirts</p>
+        <p>Men's Bottomwear: Men's Cargo Pants | Men's Joggers | Men's Jeans | Men's Pyjamas | Men's Chinos | Men's Boxers | Men's Shorts | Men's Army Cargo Pants | Men's Cargo Jeans</p>
+        <p>Color T-shirts: Blue T-shirts | Yellow T-shirts | Green T-shirts | Orange T-shirts | Grey T-shirts | Black T-shirts | White T-shirts | Red T-shirts</p>
+        <p>Men's Winterwear: Men's Jackets | Men's Shackets | Men's Sweatshirts | Men's Hoodies</p>
+        <p>Shop The Look: Men's Old Money Outfits | Men's Streetwear Clothing | Men's Casual Outfits | Men's Party Wear Outfits | Men's Formal Clothing | Couple T-shirts</p>        
+        <p>Theme Based T-shirts: Men's Sports T-shirts | Men's Travel T-Shirts | Men Gym T-shirts | Quotes T-shirts | Cartoon T-shirts | Biker T-shirts | Funky T-shirts</p>            
+        <p> Discounts and Offers: Under Rs.399 Store | Under Rs.599 Store | Under Rs.799 Store | Under Rs.999 Store</p>
+        <h3>Women's Clothing</h3>
+        <p>Women's Topwear: T-Shirts for Women | Women's Half Sleeve T-shirts | Women's Full Sleeve T-shirts | Women's Plain T-shirts | Women's Oversized T-shirts | Women's Plus Size T-shirts |</p>
+        <p>Women's Summer T-shirts</p>
+        <p>Women's Bottomwear: Women's Boxers | Women's Shorts</p>
+        <p>Women's Winterwear: Women's Sweatshirts | Women's Hoodies</p>
+        <P>Theme Based T-shirts: Women's Travel T-shirts | Feminist T-shirts</P> 
+    </div>
+  </section>
+<hr>
+<section class="secureFriends">
+    <section class="secureborder">
+<div class="secure">
+    <h1>100% SECURE PAYMENT</h1>
+    <img src="./Images/paytm.jpg">
+</div>
+</section>
+<section class="friend">
+<div class="friends">
+    <h3>LET'S BE FRIENDS</h3>
+</div>
+<div class="medias">
+    <img src="./Images/insta.jpg">
+    <img src="./Images/linkedin.jpg">
+    <img src="./Images/fb.jpg">
+    <img src="./Images/x.jpg">
+    <img src="./Images/pinterest.jpg">
+    <img src="./Images/youtube.jpg">
+</div>
+</section>
+
+</section>
+
+<section class="copyright">
+    <p>Copyright © 2024 Beyoung Folks Pvt Ltd. All rights reserved.</p>
 </section>
 
 
 
+</section>
 
 <script src="./JS/BannerCarousel.js"></script>
 <script src="./JS/OfferCarousel.js"></script>
@@ -789,10 +1134,16 @@
 <script src="./JS/carouselWinter.js"></script> 
 <script src="./JS/carouselShirt.js"></script>
 <script src="./JS/carouselCargo.js"></script>
- <script src="./JS/topwear.js"></script> 
- <script src="./JS/topwear1.js"></script> 
- <script src="./JS/bottomwear.js"></script>
- <script src="./JS/carouselCeleb.js"></script>
+<script src="./JS/topwear.js"></script> 
+<script src="./JS/topwear1.js"></script> 
+<script src="./JS/bottomwear.js"></script>
+<script src="./JS/carouselCeleb.js"></script>
+<script src="./JS/choose.js"></script>
+<script src="./JS/popular.js"></script>
+ <script src="./JS/carouselPolo.js"></script> 
+
+
+
 
 </body>
 </html>
