@@ -1,8 +1,6 @@
 .carouselnew {
     position: relative;
-    /* max-width: 800px; Adjust to fit 4 images */
-    /* margin: auto; */
-    overflow: hidden; /* Hide extra images */
+    overflow: hidden; 
   }
   
   .carousel-track-container {
@@ -16,14 +14,12 @@
   }
   
   .carousel-slide {
-    flex: 0 0 calc((100% - 30px) / 4); /* Divide the container into 4 equal slides with padding */
-    margin-right: 10px; /* Padding between slides */
-    /* box-sizing: border-box; Include padding in width */
+    flex: 0 0 calc((100% - 30px) / 4);
+    margin-right: 10px; 
     list-style: none;
   }
   
   .carousel-slide img {
-     /* width: 100%; Ensure images fit their slides */
     display: block;
     width:270px;
     height:470px;
@@ -44,9 +40,6 @@
     justify-content:space-between;
   }
   
-  /* button.prev {
-    left: 10px;
-  } */
   
   button.next {
     right: 38px;
