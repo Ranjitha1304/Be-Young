@@ -242,6 +242,8 @@ cursor: pointer;
     margin-bottom: 20px; 
 
 }
+
+
 .eleven-buttons{
     text-align: center;
     width: 1200px;
@@ -268,7 +270,7 @@ padding-top: 0px;
     font-size: 15px;
     margin-left: 20px;
 }
-.twelve-shirt{
+.twelve-shirt {
     display: flex;
     justify-content: space-around;
     margin-left: 70px;
@@ -284,6 +286,7 @@ height:380px; */
 border-radius: 20px;
 cursor: pointer;
 }
+
 .goat-sale-shirt img{
     width:270px;
 height:380px;
@@ -320,6 +323,7 @@ height:380px;
     text-align: center;
     margin-bottom: 20px;
 }
+
 .NewArrivals img{
     width:70%;
 height:80%;
@@ -515,7 +519,7 @@ cursor: pointer;
   }
   .footer{
     background-color: black;
-    padding: 70px;
+    padding: 70px 70px 0px 70px;
     margin-top: 30px;
   }
   .download img{
@@ -524,4 +528,69 @@ cursor: pointer;
     height:60px;
     cursor: pointer;
     padding-right: 10px;
+  }
+  .contentGap{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contentList {
+    list-style-type:disc;
+    color:white;
+  }
+  .listed{
+    list-style-type: disc;
+    
+  }
+  .listed ul{
+    font-weight: bolder;
+  }
+  .listed1 li{
+    font-weight: bolder;
+  }
+  .secureFriends{
+    display:flex;
+   
+  }
+  .secure h1, .friends h3{
+    color:white;
+  }
+  .secure h1{
+    margin-left: 30px;
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  .secure img{
+    width:550px;
+    padding-right: 50px;
+    padding-left: 30px;
+  }
+  .medias{
+    display:flex;
+    margin-left: 20px;
+    
+  }
+  .medias img{
+    width:30px;
+    height:30px;
+    padding-right: 20px;
+  }
+  .secureborder{
+    border-right: solid 1px yellow;
+    margin-top: 35px;
+  }
+  .friend{
+    margin:30px;
+  }
+  .friends h3{
+    padding:10px 10px 20px 20px;
+    font-weight: bolder;
+    font-size:x-large;
+  }
+  .copyright p{
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
   }
