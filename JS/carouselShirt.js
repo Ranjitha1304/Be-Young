@@ -1,60 +1,51 @@
-const track2 = document.querySelector('.carousel-track2');
-const slides2 = Array.from(track2.children);
-const nextButton2 = document.querySelector('.next2');
-const prevButton2 = document.querySelector('.prev2');
+const shirtPrev = document.getElementById('shirtPrev');
+const shirtNext = document.getElementById('shirtNext');
+const poloPrev = document.getElementById('poloPrev');
+const poloNext = document.getElementById('poloNext');
+const shirtTrack = document.getElementById('shirtCarouselTrack');
+const poloTrack = document.getElementById('poloCarouselTrack');
+const shirtButton = document.getElementById('shirtProductButton');
+const poloButton = document.getElementById('poloProductButton');
 
-// Dynamically calculate slide width, including margin
-const slideWidth2 = slides2[0].getBoundingClientRect().width;
-const slideMargin2 = parseFloat(getComputedStyle(slides2[0]).marginRight);
-const totalSlideWidth2 = slideWidth2 + slideMargin2;
+let shirtIndex = 0;
+let poloIndex = 0;
 
-let currentIndex2 = 4; // Start with the 5th slide after clones
+function updateCarousel(track, index) {
+  const itemWidth = track.children[0].offsetWidth + 10; 
+  const offset = -(index * itemWidth);
+  track.style.transform = `translateX(${offset}px)`;
+}
 
-// Clone first and last 4 slides for seamless looping
-const clonesStart2 = slides2.slice(0, 4).map(slide => slide.cloneNode(true));
-const clonesEnd2 = slides2.slice(-4).map(slide => slide.cloneNode(true));
-
-// Add clones to the track
-clonesEnd2.forEach(clone => track2.insertBefore(clone, slides2[0]));
-clonesStart2.forEach(clone => track2.appendChild(clone));
-
-// Arrange slides in a line
-const totalSlides2 = Array.from(track2.children);
-totalSlides2.forEach((slide, index) => {
-  slide.style.left = `${totalSlideWidth2 * index}px`;
+shirtNext.addEventListener('click', () => {
+  shirtIndex = (shirtIndex + 1) % 10; // Loop back to start
+  updateCarousel(shirtTrack, shirtIndex);
 });
 
-// Set initial position
-track2.style.transform = `translateX(-${totalSlideWidth2 * currentIndex2}px)`;
-
-// Move the carousel
-const moveToSlide2 = (index) => {
-  track2.style.transition = 'transform 0.3s ease-in-out';
-  track2.style.transform = `translateX(-${totalSlideWidth2 * index}px)`;
-  currentIndex2 = index;
-
-  // Handle seamless looping
-  if (index >= totalSlides2.length - 4) {
-    setTimeout(() => {
-      track2.style.transition = 'none';
-      currentIndex2 = 4; // Reset to real first slides
-      track2.style.transform = `translateX(-${totalSlideWidth2 * currentIndex2}px)`;
-    }, 300); // Match transition duration
-  } else if (index < 4) {
-    setTimeout(() => {
-      track2.style.transition = 'none';
-      currentIndex2 = totalSlides2.length - 10; // Jump to real last slides
-      track2.style.transform = `translateX(-${totalSlideWidth2 * currentIndex2}px)`;
-    }, 300);
-  }
-};
-
-// Add button functionality
-nextButton2.addEventListener('click', () => {
-  moveToSlide2(currentIndex2 + 1);
+shirtPrev.addEventListener('click', () => {
+  shirtIndex = (shirtIndex - 1 + 10) % 10; // Loop back to last
+  updateCarousel(shirtTrack, shirtIndex);
 });
 
-prevButton2.addEventListener('click', () => {
-  moveToSlide2(currentIndex2 - 1);
+poloNext.addEventListener('click', () => {
+  poloIndex = (poloIndex + 1) % 10; // Loop back to start
+  updateCarousel(poloTrack, poloIndex);
 });
 
+poloPrev.addEventListener('click', () => {
+  poloIndex = (poloIndex - 1 + 10) % 10; // Loop back to last
+  updateCarousel(poloTrack, poloIndex);
+});
+
+shirtButton.addEventListener('click', () => {
+  shirtButton.classList.add('active');
+  poloButton.classList.remove('active');
+  document.getElementById('shirtCarousel').classList.add('active');
+  document.getElementById('poloCarousel').classList.remove('active');
+});
+
+poloButton.addEventListener('click', () => {
+  poloButton.classList.add('active');
+  shirtButton.classList.remove('active');
+  document.getElementById('poloCarousel').classList.add('active');
+  document.getElementById('shirtCarousel').classList.remove('active');
+});
