@@ -48,3 +48,12 @@
   button.next4 {
     right: 40px;
   }
+  @media (min-width: 320px) and (max-width: 767px) {
+
+  button.next4{
+    right:0px;
+  }
+  button.prev4 {
+    left:0px;
+  }
+}
