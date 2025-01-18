@@ -110,3 +110,13 @@ margin-top: 60px;
 .line2 .price-discount {
   color: green;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .product-buttons{
+    width:220px;
+    margin-left: 40px;
+  }
+  .product-buttons button {
+    margin-top: 2px;
+  }
+  }
