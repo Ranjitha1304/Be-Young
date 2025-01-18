@@ -113,3 +113,42 @@ z-index: 10;
 .line2 .price-discount {
   color: green;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+
+.product-buttons{
+  width:220px;
+  margin-left: 40px;
+}
+.product-buttons button {
+  margin-top: 2px;
+}
+
+.custom-carousel {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.carousel-tracks {
+  width: auto;
+  justify-content: center;
+}
+
+.carousel-tracks img {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.carousel-tracks {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel-tracks img:not(:first-child) {
+  display: none;
+}
+
+
+}
