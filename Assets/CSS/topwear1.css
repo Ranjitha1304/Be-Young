@@ -46,3 +46,12 @@
   button.next5 {
     right: 40px;
   }
+  @media (min-width: 320px) and (max-width: 767px) {
+
+    button.next5{
+      right:0px;
+    }
+    button.prev5 {
+      left:0px;
+    }
+  }
