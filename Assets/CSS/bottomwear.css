@@ -48,3 +48,13 @@
   button.next6 {
     right: 40px;
   }
+  
+  @media (min-width: 320px) and (max-width: 767px) {
+
+    button.next6{
+      right:0px;
+    }
+    button.prev6 {
+      left:0px;
+    }
+  }
